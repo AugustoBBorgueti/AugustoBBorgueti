@@ -14,12 +14,13 @@ h3 {
 }
 
 .botao {
+  font-weight: bold;
   width: 3.5cm;
   height: 3cm;
-  order: solid 1px blue;
+  order: solid 1px rgba(0, 0, 255, 0.203);
   border-radius: 20px;
-  color: blue;
-  background-color: white;
+  color: white;
+  background-color: blue;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 .botao:hover {
