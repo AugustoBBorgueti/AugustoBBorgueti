@@ -14,7 +14,8 @@ h3 {
 }
 
 .botao {
-  size: 100cm;
+  width: 3.5cm;
+  height: 3cm;
   order: solid 1px blue;
   border-radius: 20px;
   color: blue;
