@@ -1,9 +1,10 @@
 body {
-  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG92MW52cWV1eXF3ZWNwbmhxdmxwMjNwdGQ0dXFuMHBweTdsNnFieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h2ZHafpzqVXssKkBbt/giphy.gif");
-  background-size: cover;
+  background-color: antiquewhite;
 }
 
 h1 {
+  font: black;
+  font-size: bold;
 }
 
 h2 {
@@ -19,12 +20,36 @@ h3 {
   height: 3cm;
   order: solid 1px rgba(0, 0, 255, 0.203);
   border-radius: 20px;
-  color: white;
+  color: antiquewhite;
   background-color: blue;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 .botao:hover {
   background-color: blue;
-  color: white;
+  color: antiquewhite;
   transform: scale(1.2);
+}
+.botao2 {
+  background-color: antiquewhite;
+  color: antiquewhite;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ff5733;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+}
+.botao2:hover {
+  box-shadow: inset 50px 50px 0px 0px #ff5733;
 }
