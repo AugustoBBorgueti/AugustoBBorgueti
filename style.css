@@ -18,18 +18,18 @@ h2 {
   height: 3cm;
   order: solid 1px rgba(0, 0, 255, 0.203);
   border-radius: 20px;
-  color: antiquewhite;
+  color: black;
   background-color: blue;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 .botao:hover {
   background-color: blue;
-  color: antiquewhite;
+  color: black;
   transform: scale(1.2);
 }
 .botao2 {
   background-color: antiquewhite;
-  color: antiquewhite;
+  color: black;
   border: 2px solid rgb(216, 2, 134);
   border-radius: 0px;
   padding: 18px 36px;
@@ -49,5 +49,5 @@ h2 {
   }
 }
 .botao2:hover {
-  box-shadow: inset 50px 50px 0px 0px #ff5733;
+  box-shadow: inset 10px 10px 30px 30px #ff5733;
 }
