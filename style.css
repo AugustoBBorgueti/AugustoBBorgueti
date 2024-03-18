@@ -1,18 +1,24 @@
 body {
+  margin-left: 1cm;
   background-color: rgb(254, 252, 250);
 }
 
 h1 {
+  text-align: center;
   font: black;
   font-size: bold;
 }
-
+div {
+  text-align: center;
+}
 h2 {
+  text-align: center;
   color: blueviolet;
   font-size: large;
 }
 
 .botao {
+  text-align: center;
   font-weight: bold;
   width: 3.5cm;
   height: 3cm;
