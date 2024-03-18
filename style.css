@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG92MW52cWV1eXF3ZWNwbmhxdmxwMjNwdGQ0dXFuMHBweTdsNnFieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h2ZHafpzqVXssKkBbt/giphy.gif");
+  background-size: cover;
+}
+
+h1 {
+}
+
+h2 {
+  color: blueviolet;
+  font-size: large;
+}
+h3 {
+}
+
+.botao {
+  order: solid 1px blue;
+  border-radius: 20px;
+  color: blue;
+  background-color: white;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.2);
+}
