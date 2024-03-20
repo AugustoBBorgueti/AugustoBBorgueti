@@ -2,26 +2,20 @@ body {
   margin-left: 1cm;
   background-color: rgb(254, 252, 250);
 }
+nav {
+  text-align: center;
+}
 
 h1 {
   text-align: center;
   font: black;
   font-size: bold;
 }
-div {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-  color: blueviolet;
-  font-size: large;
-}
-
 .botao {
   text-align: center;
   font-weight: bold;
-  width: 3.5cm;
-  height: 3cm;
+  width: 2.5cm;
+  height: 2.5cm;
   order: solid 1px rgba(0, 0, 255, 0.203);
   border-radius: 20px;
   color: black;
@@ -33,6 +27,17 @@ h2 {
   color: black;
   transform: scale(1.2);
 }
+.cabe2 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: blueviolet;
+  font-size: large;
+}
+
+
+
 .botao2 {
   background-color: antiquewhite;
   color: black;
