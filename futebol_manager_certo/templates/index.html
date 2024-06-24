@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 style=" align-items: center ;color: cornflowerblue">Football Manager</h1><br>
+
+        <!-- Exibir mensagens flash -->
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="alert alert-info" role="alert">
+            {{ messages[0] }}
+        </div>
+        {% endif %}
+        {% endwith %}
+
+        <div class="mt-4" style=" display: flex; gap: 1rem; justify-items: center; margin: auto;">
+            <a href="{{ url_for('adicionar_jogador') }}" class="btn btn-primary">Adicionar Jogador</a>
+            <a href="{{ url_for('adicionar_gol') }}" class="btn btn-secondary">Adicionar Gol</a>
+            <a href="{{ url_for('top_goleadores') }}" class="btn btn-success">Ver Top Goleadores Mensal</a>
+            <a href="{{ url_for('top_goleadores_anual') }}" class="btn btn-success ml-2">Ver Top Goleadores Anual</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
